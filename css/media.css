@@ -1,0 +1,144 @@
+/* ---------------------------------------- */
+@media (max-width: 767px) {
+  /* Media Header */
+  .header .logo {
+    width: 100%;
+  }
+  .header .main-nav {
+    margin: auto;
+  }
+  .header .main-nav > li > a {
+    padding: 15px;
+    font-size: 14px;
+    height: 40px;
+  }
+  .header .mega-menu {
+    flex-direction: column;
+    gap: 0;
+    padding: 5px;
+  }
+  .header .mega-menu .links:first-of-type li:last-child {
+    border-bottom: 1px solid #e9e6e6;
+  }
+  /* Media Header */
+
+  /* Media Landing */
+  .landing .text h1 {
+    font-size: 30px;
+  }
+  .landing .text p {
+    font-size: 20px;
+    margin: 10px auto;
+  }
+  /* Media Landing */
+
+  /* Media Work Steps */
+  .work-steps .info .box {
+    flex-direction: column;
+    text-align: center;
+  }
+  .work-steps .info .box img {
+    margin: 0 0 40px;
+  }
+  /* Media Work Steps */
+
+  /* Media Events */
+  .events .subscribe form {
+    max-width: 100%;
+    padding: 20px;
+    flex-direction: column;
+    border-radius: 0;
+  }
+  .events .subscribe form input[type="email"] {
+    border-radius: 0;
+  }
+  .events .subscribe form input[type="submit"] {
+    border-radius: 0;
+  }
+  /* Media Events */
+}
+/* ---------------------------------------- */
+
+@media (max-width: 991px) {
+  /* Media Header */
+  .header .mega-menu .image {
+    display: none;
+  }
+  /* Media Header */
+
+  /* Media Landing */
+  .landing .container {
+    flex-direction: column;
+    padding-bottom: 60px;
+  }
+  .landing .text {
+    text-align: center;
+    margin-top: 50px;
+    flex: 0.4;
+  }
+  /* Media Landing */
+
+  /* Media Skills  */
+  .our-skills img {
+    display: none;
+  }
+  /* Media Skills  */
+
+  /* Media Work Steps */
+  .work-steps .container {
+    flex-direction: column;
+  }
+  .work-steps .image {
+    margin: 0 0 50px;
+  }
+  /* Media Work Steps */
+
+  /* Media Events  */
+  .events img {
+    display: none;
+  }
+  /* Media Events  */
+
+  /* Media Videos */
+  .videos .holder {
+    flex-direction: column;
+  }
+  /* Media Videos */
+
+  /* Media Discount */
+  .discount .image {
+    flex-basis: 100%;
+  }
+  .discount .form {
+    flex-basis: 100%;
+  }
+  /* Media Discount */
+}
+/* ---------------------------------------- */
+/* Media Global Rules */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* ---------------------------------------- */
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* ---------------------------------------- */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1175px;
+  }
+  /* Media Pricing */
+  .pricing .box.popular {
+    top: -20px;
+  }
+  /* Media Pricing */
+}
+/* Media Global Rules */
+/* ---------------------------------------- */
